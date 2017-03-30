@@ -1,0 +1,70 @@
+p {
+	font-size: @fs; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h1 {
+	.fs(@h1);
+	font-weight: 400; 
+	line-height: 1.1; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h2 {
+	font-size: @h2; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: 0;
+}
+h3 {
+	font-size: @h3; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h4 {
+	font-size: @h4; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h5 {
+	font-size: @h5; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+h6 {
+	font-size: @h6; 
+	font-weight: 400; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+}
+a {
+	font-size: @fs; 
+	line-height: @lh; 
+	color: @text-color; 
+	margin: @text-margin;
+	outline: none;
+	&:hover {
+		outline: none;
+		text-decoration: none;
+	}
+	&:active {
+		outline: none;
+	}
+}
+.main-headline {
+	font-family: 'FuturaRoundBold';
+	.fs(@h2);
+	text-align: left;	
+	color: @grey;	
+}
+
+.align-right {text-align: right;}

@@ -1,0 +1,161 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main-headline--too p {
+		text-align: center;
+	}
+	.video-wrap {
+		padding-top: 15px;
+		margin: 0 auto;
+	}
+	.you-will-learn {
+		text-align: center;
+	}
+	.check-wrap {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.main-footer div p {
+		text-align: center;
+	}
+	.main-screen-form {    
+    	text-align: center;
+    	width: 100%;
+    	max-width: 548px;
+    	margin: 0 auto;
+	}
+	.wrapp-discription-form {
+		padding-top: 25px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 736px) {
+	.main-headline {
+		text-align: center;
+	}
+	.main-headline--too h1 {
+		text-align: center;
+	}
+
+}
+
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 667px) {
+	.video-wrap {
+		width: 100%;
+		height: auto;
+	}
+}
+/* Custom, iPhone 5 */
+@media only screen and (max-width : 568px) {
+	.main-screen-form .input-group {
+		width: 100%;
+	}
+	.main-screen-form .input-group input {
+		width: 100%;
+	}
+	.btn-main-form {
+		width: 100%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+}
+
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 414px) {
+
+}
+
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 375px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.main-screen__healine img {
+		max-width: 290px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+	.main-screen__healine img {
+		width: 295px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
